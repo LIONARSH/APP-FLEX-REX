@@ -5,7 +5,8 @@ package.domain = org.flexrex
 source.dir = .
 source.include_exts = py,png,jpg,kv,mp4,json
 version = 0.1
-requirements = python3,kivy==2.3.1,kivymd==1.2.0,opencv-python,mediapipe,ffpyplayer
+# Cambia esta línea
+requirements = python3,kivy==2.3.1,kivymd==1.2.0,ffpyplayer
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET,CAMERA,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
